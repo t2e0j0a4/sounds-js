@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.page {
+    max-width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plays {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.plays button {
+    padding: 12px 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #232323;
+    color: #fff;
+    border: 1px solid #232323;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: outline 0.4s linear, transform 0.4s ease;
+}
+
+.plays button:hover {
+    outline: 4px solid #232323;
+    outline-offset: 3px;
+    transform: scale(1.03);
+}
